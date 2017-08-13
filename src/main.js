@@ -14,7 +14,7 @@ Vue.use(VueResource);// 把VueResource用到vue项目里
 let app = Vue.extend(App);// 路由的根组件App组件
 
 let router = new VueRouter({// 实例化路由
-  linkActiveClass: 'active'// 改变选中的类名
+  linkActiveClass: 'active'// 改变选中的类名1
 });
 // 定义路由（map方法是定义路由）
 router.map({
@@ -24,7 +24,7 @@ router.map({
   '/ratings': {// 路由名称
     component: ratings// 对应的组件
   },
-  '/seller': {// 路由名称
+  '/seller': {// 路由名称1
     component: seller// 对应的组件
   }
 });
